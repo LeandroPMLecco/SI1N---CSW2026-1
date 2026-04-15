@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - 09</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="leandropessotti501@gmail.com" method="post" enctype="text/plain"></form>
+    <table border="1">
+        <tbody>
+        <tr>
+            
+                <td><label for="">Nome do usuario</label></td>
+                <td> <input type="text" name="nome-usuario01" id="nome-usuario01" size="40" maxlength="30" value=""
+                placeholder="Digite o nome do usuario" required> </td>
+            
+        </tr>
+        <br>
+        <tr>
+            
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" size="40" maxlength="30" value="" name="email"></td>
+            
+        </tr>
+        <tr>
+            <td><label for="email">E-mail (patter):</label></td>
+                <td><input type="email" id="email" size="40" maxlength="30" value="" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="senha">Senha:</label></td>
+           <td> <input type="password" id="senha" size="40" maxlength="30" value=""  name="senha"></td>
+        </tr>
+        <tr>
+            <td><label for="idade">Idade</label></td>
+           <td><input type="number" id="idade" size="40" maxlength="30" value=""  name="idade"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><textarea name="comentario" cols="50" rows="10" placeholder="Escreva aqui um comentario" readonly></textarea></td>
+        </tr>
+        <tr>
+            <td>
+            <label for="">Materia de interesse</label>
+            <br>
+            <input type="checkbox" name="Backend" value="back"> BackEnd
+            <br>
+            <input type="checkbox" name="Fronted" value="front"> FrontEnd
+            <br>
+            <input type="checkbox" name="Fullstack" value="full"> Fullstack
+            </td>
+            <td>
+                <p>Tipo de viagem:</p>
+                <input type="radio" id="opcao" name="opcao" value="yes"> Negocios  
+                <br>
+                <input type="radio" id="opcao" name="opcao" value="yes"> Lazer
+                <br>
+                <input type="radio" id="opcao" name="opcao" value="yes"> Turismo
+                <br>
+                <input type="radio" id="opcao" name="opcao" value="yes"> Acadêmico 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Esporte favorito</label>
+                <select name="Esporte" id="1">
+                <option value="">Selecione</option>
+                <option value="">Futebol</option>
+                <option value="">Vôlei</option>
+                <option value="">Basquete</option>
+                <option value="">Ténis</option>
+                </select>
+            </td>
+            <td>
+                <label for="">Investimentos</label>
+                <select name="Investimentos" id="1" >
+                <option value="">Poupança</option>
+                <option value="">CDB</option>
+                <option value="">Tessouro direto</option>
+                <option value="">DEBÊNTURES</option>
+                <option value="">Criptomoeda</option>
+                <option value="">Ações</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cor">Escolha uma cor:</label>
+          <input type="color" name="cor" id="cor">
+            </td>
+            <td>
+          <label for="arquivo">Selecione um arquivo:</label>
+          <input type="file" name="arquivo" id="arquivo">
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <label for="datahora">Data e Hora envio:</label>
+          <input type="datetime-local" name="datahora" id="datahora">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="submit" value="Enviar">
+        </td>
+        <td>
+          <input type="reset" value="Limpar">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
