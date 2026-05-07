@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - 12</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+
+        .div1 {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 3px solid #2c7be5;
+            border-radius: 12px;
+        }
+
+       
+        a {
+            display: block;
+            width: fit-content;
+            margin: 15px 0;
+            padding: 12px 18px;
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            border-radius: 8px;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+
+        a::before {
+            content: "* ";
+            color: yellow;
+        }
+
+        a::after {
+            content: " \266B";
+            color: yellow;
+        }
+
+        a:hover {
+            background-color: #1db954;
+            color: black;
+        }
+
+        a:active {
+            background-color: red;
+            color: white;
+        }
+
+        .spotify {
+            background-color: #1db954;
+        }
+
+        .youtube {
+            background-color: #ff0000;
+        }
+
+        .amazon {
+            background-color: #00a8e1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Minha Página de Música</h1>
+
+    <div class="div1">
+        <a class="spotify" href="https://open.spotify.com/" target="_blank">Spotify</a>
+        <a class="youtube" href="https://www.youtube.com/" target="_blank">YouTube</a>
+        <a class="amazon" href="https://music.amazon.com/" target="_blank">Amazon Music</a>
+    </div>
+
+
+</body>
+</html>
