@@ -1,0 +1,16 @@
+#conteiner{
+    width: 650px;
+    padding: 25px;
+    border-radius: 15px;
+
+    background-image: url("familia.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+
+    position: relative;
+}
